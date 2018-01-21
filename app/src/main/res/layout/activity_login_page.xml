@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.wificonnect.LoginPage">
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:id="@+id/UserNameText"
+        android:layout_width="wrap_content"
+        android:hint="UserName"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/PasswordText"
+        android:layout_below="@+id/UserNameText"
+        android:layout_width="wrap_content"
+        android:hint="Password"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/user_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="176dp"
+        android:layout_centerHorizontal="true"
+        android:text="Login"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="221dp" />
+
+</RelativeLayout>
